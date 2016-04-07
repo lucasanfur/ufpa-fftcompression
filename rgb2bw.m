@@ -1,1 +1,1 @@
-function
+// converter rgb para grayscale
