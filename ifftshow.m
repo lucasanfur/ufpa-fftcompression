@@ -1,1 +1,1 @@
-escrever a função da fast fourier transform inversa
+// escrever a função da fast fourier transform inversa
