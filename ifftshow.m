@@ -1,9 +1,15 @@
-function[] = ifftshow(f)
+% fft inversa
 
-f1 = abs (f);
+function[] = ifftshow(ac)
 
-fm = max(f1(:));
+f1 = abs (ac); % tirar o módulo
 
-figure,imshow(f1/fm);
+fm = max(f1(:)); % valores máximos da matriz
+
+imr = (f1/fm); % centralização da magnitude
+
+figure,imshow(imr);
+
+imwrite(imr,'cimage.jpg');
 
 end
